@@ -1,0 +1,54 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# 가상환경 폴더
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# IDE 관련
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# 운영체제 별로 생성되는 파일
+.DS_Store
+Thumbs.db
+
+# 장고 관련
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.coverage
+*.migrations/
+staticfiles/
+media/
+node_modules/
+.env
+
+# 테스트와 빌드
+build/
+dist/
+*.egg-info/
+*.egg
+*.spec
+
+# 특정 설정 파일
+*.env
+local_settings.py
+
+# PyCharm 설정 파일
+.idea/
+
+# 특정 파일들 (선택 사항)
+secrets.json
